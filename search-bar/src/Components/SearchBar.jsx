@@ -3,7 +3,7 @@ import { useEffect, useState } from "react";
 function SearchBar() {
   const [input, setInput] = useState("");
   const [data, setData] = useState([]);
-  const accessKey = "Ass your Unsplash keyt here and then run ";
+  const accessKey = "Add your Unsplash keyt here and then run ";
 
   let page = 1;
 
